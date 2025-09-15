@@ -1,0 +1,322 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - link "RapidLanyard - Custom Lanyards with 3-Day Delivery" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "RapidLanyard - Custom Lanyards with 3-Day Delivery" [ref=e8] [cursor=pointer]
+        - navigation [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: /
+          - link "Lanyards" [ref=e11] [cursor=pointer]:
+            - /url: /lanyards
+          - link "ID Badges" [ref=e12] [cursor=pointer]:
+            - /url: /id-badges
+          - link "Wristbands" [ref=e13] [cursor=pointer]:
+            - /url: /wristbands
+          - link "Yoyo Badges" [ref=e14] [cursor=pointer]:
+            - /url: /yoyo-badges
+          - link "About" [ref=e15] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e16] [cursor=pointer]:
+            - /url: /contact
+        - link "GET A QUOTE" [ref=e18] [cursor=pointer]:
+          - /url: /contact
+    - navigation "Breadcrumb" [ref=e21]:
+      - list [ref=e22]:
+        - listitem [ref=e23]:
+          - link "Home" [ref=e24] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e25]:
+          - img [ref=e26]
+          - generic [ref=e28]: Lanyards
+    - generic [ref=e31]:
+      - heading "Custom Lanyards - 3 Day Delivery" [level=1] [ref=e32]
+      - paragraph [ref=e33]:
+        - text: Professional lanyards starting from
+        - generic [ref=e34]: $0.11
+      - paragraph [ref=e35]: +100 accessory variations available
+    - generic [ref=e38]:
+      - generic [ref=e40]:
+        - heading "Product Gallery" [level=2] [ref=e41]
+        - generic [ref=e43]:
+          - img "Premium Knitted Plain Lanyard - Custom Event Lanyards" [ref=e44]
+          - generic [ref=e45]: Premium Knitted Lanyards
+        - generic [ref=e46]:
+          - button "View Premium Knitted Lanyards" [ref=e47] [cursor=pointer]:
+            - img "Premium Knitted Plain Lanyard - Custom Event Lanyards" [ref=e48] [cursor=pointer]
+          - button "View Lanyard Variations" [ref=e50] [cursor=pointer]:
+            - img "Custom Lanyard Variations - Professional Event Solutions" [ref=e51] [cursor=pointer]
+          - button "View Printed Lanyards" [ref=e53] [cursor=pointer]:
+            - img "Custom Printed Lanyards - High Quality Event Accessories" [ref=e54] [cursor=pointer]
+          - button "View Quality Close-up" [ref=e56] [cursor=pointer]:
+            - img "Professional Lanyard Quality - Corporate Event Solutions" [ref=e57] [cursor=pointer]
+          - button "View Horizontal Design" [ref=e59] [cursor=pointer]:
+            - img "Horizontal Lanyard Design - Custom Event Branding" [ref=e60] [cursor=pointer]
+        - generic [ref=e62]:
+          - heading "Quality Features" [level=3] [ref=e63]
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - img [ref=e67]
+              - generic [ref=e69]:
+                - heading "Premium Materials" [level=4] [ref=e70]
+                - paragraph [ref=e71]: High-quality polyester construction for durability
+            - generic [ref=e72]:
+              - img [ref=e74]
+              - generic [ref=e76]:
+                - heading "Custom Printing" [level=4] [ref=e77]
+                - paragraph [ref=e78]: Screen printing and digital sublimation available
+      - generic [ref=e80]:
+        - heading "Lanyard Types" [level=2] [ref=e81]
+        - generic [ref=e82]:
+          - heading "▼ Knitted Plain Lanyard" [level=3] [ref=e83]
+          - generic [ref=e84]:
+            - paragraph [ref=e85]:
+              - text: •
+              - strong [ref=e86]: "Material:"
+              - text: Premium woven polyester
+            - paragraph [ref=e87]:
+              - text: •
+              - strong [ref=e88]: "Width:"
+              - text: 13mm standard
+            - paragraph [ref=e89]:
+              - text: •
+              - strong [ref=e90]: "Colors:"
+              - text: 20+ solid colors available
+            - paragraph [ref=e91]:
+              - text: •
+              - strong [ref=e92]: "Best for:"
+              - text: Corporate events, conferences, ID badges
+          - link "VIEW DETAILS" [ref=e93] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e94]:
+          - heading "▼ Satin Polyester Plain" [level=3] [ref=e95]
+          - generic [ref=e96]:
+            - paragraph [ref=e97]:
+              - text: •
+              - strong [ref=e98]: "Material:"
+              - text: Smooth satin finish
+            - paragraph [ref=e99]:
+              - text: •
+              - strong [ref=e100]: "Printing:"
+              - text: Screen printing available
+            - paragraph [ref=e101]:
+              - text: •
+              - strong [ref=e102]: "Colors:"
+              - text: Full Pantone range
+            - paragraph [ref=e103]:
+              - text: •
+              - strong [ref=e104]: "MOQ:"
+              - text: Starting from 100 pieces
+          - link "VIEW DETAILS" [ref=e105] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e106]:
+          - heading "▼ Digital Printed (Sublimated)" [level=3] [ref=e107]
+          - generic [ref=e108]:
+            - paragraph [ref=e109]:
+              - text: •
+              - strong [ref=e110]: "Material:"
+              - text: High-quality polyester
+            - paragraph [ref=e111]:
+              - text: •
+              - strong [ref=e112]: "Printing:"
+              - text: Full-color sublimation
+            - paragraph [ref=e113]:
+              - text: •
+              - strong [ref=e114]: "Design:"
+              - text: Unlimited colors, photo-quality
+            - paragraph [ref=e115]:
+              - text: •
+              - strong [ref=e116]: "Best for:"
+              - text: Complex logos, detailed designs
+          - link "VIEW DETAILS" [ref=e117] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e118]:
+          - heading "▼ Recycled Polyester" [level=3] [ref=e119]
+          - generic [ref=e120]:
+            - paragraph [ref=e121]:
+              - text: •
+              - strong [ref=e122]: "Material:"
+              - text: Eco-friendly recycled polyester
+            - paragraph [ref=e123]:
+              - text: •
+              - strong [ref=e124]: "Sustainability:"
+              - text: 100% recycled material
+            - paragraph [ref=e125]:
+              - text: •
+              - strong [ref=e126]: "Options:"
+              - text: Plain & Digital Printed
+            - paragraph [ref=e127]:
+              - text: •
+              - strong [ref=e128]: "Quality:"
+              - text: Same durability as virgin materials
+          - link "VIEW DETAILS" [ref=e129] [cursor=pointer]:
+            - /url: /contact
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - heading "Lanyard Upgrades" [level=2] [ref=e133]
+        - paragraph [ref=e134]: Professional add-ons for enhanced functionality
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - img [ref=e138]
+          - heading "Safety Breakaway" [level=3] [ref=e140]
+          - paragraph [ref=e141]: Required for healthcare, schools, and industrial environments
+          - list [ref=e142]:
+            - listitem [ref=e143]: • Metal breakaway option
+            - listitem [ref=e144]: • Plastic breakaway option
+            - listitem [ref=e145]: • Safety compliance certified
+        - generic [ref=e146]:
+          - img [ref=e148]
+          - heading "Transition Buckle" [level=3] [ref=e150]
+          - paragraph [ref=e151]: Easy badge attachment and removal system
+          - list [ref=e152]:
+            - listitem [ref=e153]: • Quick-release mechanism
+            - listitem [ref=e154]: • Multiple attachment points
+            - listitem [ref=e155]: • Prevents badge twisting
+        - generic [ref=e156]:
+          - img [ref=e158]
+          - heading "Custom Hardware" [level=3] [ref=e160]
+          - paragraph [ref=e161]: Specialized attachment solutions
+          - list [ref=e162]:
+            - listitem [ref=e163]: • Split rings
+            - listitem [ref=e164]: • Swivel hooks
+            - listitem [ref=e165]: • Custom branded hardware
+    - generic [ref=e167]:
+      - generic [ref=e168]:
+        - heading "\"+100 Variations Available\"" [level=2] [ref=e169]
+        - paragraph [ref=e170]: Complete your lanyard setup with professional accessories
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - img [ref=e174]
+          - heading "Badge Holders" [level=3] [ref=e176]
+          - paragraph [ref=e177]: Soft/Hard plastic options
+          - link "View Options →" [ref=e178] [cursor=pointer]:
+            - /url: /id-badges
+        - generic [ref=e179]:
+          - img [ref=e181]
+          - heading "Retractable Reels" [level=3] [ref=e183]
+          - paragraph [ref=e184]: Badge reel gallery
+          - link "View Options →" [ref=e185] [cursor=pointer]:
+            - /url: /yoyo-badges
+        - generic [ref=e186]:
+          - img [ref=e188]
+          - heading "Keychains" [level=3] [ref=e189]
+          - paragraph [ref=e190]: Branded/Unbranded options
+          - link "Get Quote →" [ref=e191] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e192]:
+          - img [ref=e194]
+          - heading "Custom Hardware" [level=3] [ref=e195]
+          - paragraph [ref=e196]: Accessory variations
+          - link "Get Quote →" [ref=e197] [cursor=pointer]:
+            - /url: /contact
+    - generic [ref=e199]:
+      - generic [ref=e200]:
+        - heading "Get Your Lanyard Quote" [level=2] [ref=e201]
+        - paragraph [ref=e202]: Choose the quote method that works best for you
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - heading "Simple Quote Request" [level=3] [ref=e205]
+          - generic [ref=e206]:
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - generic [ref=e209]: Your Name *
+                - textbox "Your Name *" [ref=e210]
+              - generic [ref=e211]:
+                - generic [ref=e212]: Email *
+                - textbox "Email *" [ref=e213]
+            - generic [ref=e214]:
+              - generic [ref=e215]: How many do you need? *
+              - spinbutton "How many do you need? *" [ref=e216]
+            - generic [ref=e217]:
+              - generic [ref=e218]: Upload Your Logo/Design *
+              - generic [ref=e220] [cursor=pointer]:
+                - img [ref=e222] [cursor=pointer]
+                - paragraph [ref=e224] [cursor=pointer]:
+                  - generic [ref=e225] [cursor=pointer]: Click to upload your logo
+                - paragraph [ref=e226] [cursor=pointer]: PNG, JPG, PDF, AI, EPS, SVG files
+            - generic [ref=e227]:
+              - generic [ref=e228]: Describe your project *
+              - textbox "Describe your project *" [ref=e229]
+            - button "GET MY QUOTE" [ref=e230]
+        - generic [ref=e231]:
+          - heading "Detailed Quote Request" [level=3] [ref=e232]
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - img [ref=e236]
+              - generic [ref=e238]: Complete project specifications
+            - generic [ref=e239]:
+              - img [ref=e241]
+              - generic [ref=e243]: Delivery timeline planning
+            - generic [ref=e244]:
+              - img [ref=e246]
+              - generic [ref=e248]: Company information & billing
+            - generic [ref=e249]:
+              - img [ref=e251]
+              - generic [ref=e253]: Multiple product types
+          - link "GO TO DETAILED FORM" [ref=e254] [cursor=pointer]:
+            - /url: /contact
+    - generic [ref=e256]:
+      - heading "Ready to Order Custom Lanyards?" [level=2] [ref=e257]
+      - paragraph [ref=e258]: Get your professional quote in 2 hours • 3-day delivery guarantee
+      - generic [ref=e259]:
+        - link "GET LANYARD QUOTE" [ref=e260] [cursor=pointer]:
+          - /url: /contact
+        - link "WHATSAPP QUOTE" [ref=e261] [cursor=pointer]:
+          - /url: https://wa.me/905455812613?text=Hi! I need a quote for custom lanyards. Please send me pricing for [quantity] pieces with 3-day delivery.
+    - contentinfo [ref=e262]:
+      - generic [ref=e263]:
+        - generic [ref=e264]:
+          - generic [ref=e265]:
+            - img "RapidLanyard - Custom Lanyards with 3-Day Delivery" [ref=e266]
+            - paragraph [ref=e267]: 3-day delivery to EU & US
+            - paragraph [ref=e268]: Factory-direct pricing
+          - generic [ref=e269]:
+            - heading "Quick Links" [level=4] [ref=e270]
+            - list [ref=e271]:
+              - listitem [ref=e272]:
+                - link "Home" [ref=e273] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e274]:
+                - link "Lanyards" [ref=e275] [cursor=pointer]:
+                  - /url: /lanyards
+              - listitem [ref=e276]:
+                - link "Get Quote" [ref=e277] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e278]:
+                - link "About" [ref=e279] [cursor=pointer]:
+                  - /url: /about
+          - generic [ref=e280]:
+            - heading "Products" [level=4] [ref=e281]
+            - list [ref=e282]:
+              - listitem [ref=e283]:
+                - link "Custom Lanyards" [ref=e284] [cursor=pointer]:
+                  - /url: /lanyards
+              - listitem [ref=e285]:
+                - link "ID Badge Holders" [ref=e286] [cursor=pointer]:
+                  - /url: /id-badges
+              - listitem [ref=e287]:
+                - link "Wristbands" [ref=e288] [cursor=pointer]:
+                  - /url: /wristbands
+              - listitem [ref=e289]:
+                - link "Badge Reels" [ref=e290] [cursor=pointer]:
+                  - /url: /yoyo-badges
+          - generic [ref=e291]:
+            - heading "Contact" [level=4] [ref=e292]
+            - list [ref=e293]:
+              - listitem [ref=e294]:
+                - link "+90 545 581 26 13" [ref=e295] [cursor=pointer]:
+                  - /url: https://wa.me/905455812613
+              - listitem [ref=e296]:
+                - link "yetimsalih1@gmail.com" [ref=e297] [cursor=pointer]:
+                  - /url: mailto:yetimsalih1@gmail.com
+              - listitem [ref=e298]: 3-Day Delivery EU & US
+              - listitem [ref=e299]: Factory-Direct Pricing
+        - paragraph [ref=e301]: © 2025 RapidLanyard. All rights reserved. Professional event solutions with rapid delivery.
+  - button "Open Next.js Dev Tools" [ref=e307] [cursor=pointer]:
+    - img [ref=e308] [cursor=pointer]
+  - alert [ref=e311]
+```
