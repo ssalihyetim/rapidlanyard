@@ -13,7 +13,7 @@ export default function AboutPage() {
             <h1 className="text-5xl font-bold text-gray-900 mb-4">Factory-Direct Speed Meets European Service</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               RapidLanyard bridges the gap between Asian manufacturing efficiency and European service standards. 
-              When conferences can't wait and expos have fixed dates, RapidLanyard delivers.
+              When conferences can&apos;t wait and expos have fixed dates, RapidLanyard delivers.
             </p>
           </div>
         </div>
@@ -26,13 +26,13 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-semibold text-gray-900 mb-6">Our Mission</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded to solve the event industry's biggest pain point - missed deadlines - we've streamlined 
+                Founded to solve the event industry&apos;s biggest pain point - missed deadlines - we&apos;ve streamlined 
                 every step from quote to delivery. Our direct factory relationships enable 3-day delivery across 
                 EU and US markets, while our flexible approach means no order is too small or too urgent.
               </p>
               <p className="text-lg text-gray-600">
                 We understand that event organizers work under intense pressure with non-negotiable deadlines. 
-                That's why we've built our entire operation around speed, reliability, and transparency.
+                That&apos;s why we&apos;ve built our entire operation around speed, reliability, and transparency.
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">

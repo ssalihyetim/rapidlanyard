@@ -72,7 +72,7 @@ export default function SimpleQuoteForm() {
             </svg>
             <p className="text-green-800 font-medium">Quote request sent successfully!</p>
           </div>
-          <p className="text-green-700 text-sm mt-1">You'll receive a response within 2 hours. Check your email for confirmation.</p>
+          <p className="text-green-700 text-sm mt-1">You&apos;ll receive a response within 2 hours. Check your email for confirmation.</p>
         </div>
       )}
       
@@ -224,7 +224,7 @@ export default function SimpleQuoteForm() {
         </button>
         
         <p className="text-xs text-gray-500 text-center">
-          💡 We'll respond within 2 hours during business hours. Files help us provide accurate quotes!
+          💡 We&apos;ll respond within 2 hours during business hours. Files help us provide accurate quotes!
         </p>
       </form>
     </div>

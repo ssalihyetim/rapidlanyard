@@ -171,7 +171,7 @@ export default function ContactPage() {
                     </svg>
                     <p className="text-green-800 font-medium">Detailed quote request sent successfully!</p>
                   </div>
-                  <p className="text-green-700 text-sm mt-1">You'll receive a professional response within 2 business hours. Check your email for confirmation.</p>
+                  <p className="text-green-700 text-sm mt-1">You&apos;ll receive a professional response within 2 business hours. Check your email for confirmation.</p>
                 </div>
               )}
               

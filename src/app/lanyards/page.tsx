@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Header from '@/components/Header';
-import { LanyardIcon, SpeedIcon, FlexibilityIcon } from '@/components/Icons';
+import { SpeedIcon, FlexibilityIcon } from '@/components/Icons';
 import SimpleQuoteForm from '@/components/SimpleQuoteForm';
 import { useState } from 'react';
 
@@ -339,7 +339,7 @@ export default function LanyardsPage() {
       <section className="py-16 bg-light-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-section text-teal-500 mb-4">"+100 Variations Available"</h2>
+            <h2 className="text-section text-teal-500 mb-4">&quot;+100 Variations Available&quot;</h2>
             <p className="text-xl text-medium-gray">Complete your lanyard setup with professional accessories</p>
           </div>
           
