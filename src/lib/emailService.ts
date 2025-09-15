@@ -242,7 +242,7 @@ export const sendSimpleQuoteEmail = async (data: SimpleQuoteData): Promise<{ suc
     const result = await resend.emails.send({
       from: 'RapidLanyard Quote System <salih@talepgetir.com>',
       to: ['salih@talepgetir.com'],
-      reply_to: data.email, // Customer can reply directly
+      replyTo: data.email, // Customer can reply directly
       subject: `🚨 URGENT: Simple Quote Request - ${data.name} - ${data.quantity} pcs`,
       html: generateSimpleQuoteHTML(data),
       attachments: attachments
@@ -271,7 +271,7 @@ export const sendDetailedQuoteEmail = async (data: DetailedQuoteData): Promise<{
     const result = await resend.emails.send({
       from: 'RapidLanyard Quote System <salih@talepgetir.com>',
       to: ['salih@talepgetir.com'],
-      reply_to: data.email, // Customer can reply directly
+      replyTo: data.email, // Customer can reply directly
       subject: `📋 B2B Quote Request - ${data.company} - ${data.quantity} pcs ${data.product}`,
       html: generateDetailedQuoteHTML(data),
       attachments: attachments
