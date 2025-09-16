@@ -44,10 +44,6 @@ const nextConfig: NextConfig = {
   },
   // Enable compression
   compress: true,
-  // Optimize for mobile
-  experimental: {
-    optimizeCss: true,
-  },
 };
 
 export default nextConfig;
