@@ -507,7 +507,8 @@ export default function HomePage() {
               <h4 className="font-semibold mb-4 text-lg">Contact</h4>
               <ul className="space-y-2">
                 <li><a href="https://wa.me/905455812613" className="text-gray-300 hover:text-blue-400 transition-colors">+90 545 581 26 13</a></li>
-                <li><a href="mailto:yetimsalih1@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">yetimsalih1@gmail.com</a></li>
+                <li><a href="mailto:john@rapidlanyard.com" className="text-gray-300 hover:text-blue-400 transition-colors">john@rapidlanyard.com</a></li>
+                <li className="text-gray-300">Litros Yolu No:5, Zeytinburnu, Istanbul</li>
                 <li className="text-blue-400 font-bold mt-4">3-Day Delivery EU & US</li>
                 <li className="text-blue-400 font-bold">Factory-Direct Pricing</li>
               </ul>

@@ -240,8 +240,8 @@ export const sendSimpleQuoteEmail = async (data: SimpleQuoteData): Promise<{ suc
     console.log('📤 Sending email with Resend...');
     
     const result = await resend.emails.send({
-      from: 'RapidLanyard Quote System <salih@talepgetir.com>',
-      to: ['salih@talepgetir.com'],
+      from: 'RapidLanyard Quote System <john@rapidlanyard.com>',
+      to: ['john@rapidlanyard.com'],
       replyTo: data.email, // Customer can reply directly
       subject: `🚨 URGENT: Simple Quote Request - ${data.name} - ${data.quantity} pcs`,
       html: generateSimpleQuoteHTML(data),
@@ -269,8 +269,8 @@ export const sendDetailedQuoteEmail = async (data: DetailedQuoteData): Promise<{
     })) || [];
 
     const result = await resend.emails.send({
-      from: 'RapidLanyard Quote System <salih@talepgetir.com>',
-      to: ['salih@talepgetir.com'],
+      from: 'RapidLanyard Quote System <john@rapidlanyard.com>',
+      to: ['john@rapidlanyard.com'],
       replyTo: data.email, // Customer can reply directly
       subject: `📋 B2B Quote Request - ${data.company} - ${data.quantity} pcs ${data.product}`,
       html: generateDetailedQuoteHTML(data),
@@ -332,11 +332,12 @@ export const sendCustomerConfirmation = async (
                   
                   <p>
                       <a href="https://wa.me/905455812613" class="button">📱 WhatsApp: +90 545 581 26 13</a><br>
-                      <a href="mailto:salih@talepgetir.com" class="button">📧 Email: salih@talepgetir.com</a>
+                      <a href="mailto:john@rapidlanyard.com" class="button">📧 Email: john@rapidlanyard.com</a>
                   </p>
                   
                   <p>Best regards,<br>
                   <strong>RapidLanyard Team</strong><br>
+                  Litros Yolu No:5, Zeytinburnu, Istanbul<br>
                   Factory-Direct Custom Lanyards</p>
               </div>
           </div>
@@ -345,7 +346,7 @@ export const sendCustomerConfirmation = async (
     `;
     
     const result = await resend.emails.send({
-      from: 'RapidLanyard <salih@talepgetir.com>',
+      from: 'RapidLanyard <john@rapidlanyard.com>',
       to: [customerEmail],
       subject: '✅ Quote Request Received - Response within 2 hours | RapidLanyard',
       html: confirmationHTML

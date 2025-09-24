@@ -523,7 +523,8 @@ export default function LanyardsPage() {
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2">
                 <li><a href="https://wa.me/905455812613" className="text-gray-300 hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 rounded">+90 545 581 26 13</a></li>
-                <li><a href="mailto:yetimsalih1@gmail.com" className="text-gray-300 hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 rounded">yetimsalih1@gmail.com</a></li>
+                <li><a href="mailto:john@rapidlanyard.com" className="text-gray-300 hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 rounded">john@rapidlanyard.com</a></li>
+                <li className="text-gray-300">Litros Yolu No:5, Zeytinburnu, Istanbul</li>
                 <li className="text-teal-500 font-bold">3-Day Delivery EU & US</li>
                 <li className="text-teal-500 font-bold">Factory-Direct Pricing</li>
               </ul>
